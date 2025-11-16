@@ -1,0 +1,4 @@
+.map { height: 380px; border-radius: var(--radius); border:1px solid var(--border); overflow:hidden; margin: 10px 0; }
+.map.small { height: 380px; }
+.map.full, #map { height: 70vh; }
+

@@ -1,0 +1,9 @@
+.cards-grid { display:grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.card { border:1px solid var(--border); background:#fff; border-radius:var(--radius); box-shadow: var(--shadow); }
+.card-body { padding: 12px; }
+.card-title { font-weight:700; margin-bottom:4px; }
+.card-meta { color: var(--muted); display:flex; gap:8px; align-items:center; margin-bottom:8px; }
+
+@media (max-width: 992px) { .cards-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 640px) { .cards-grid { grid-template-columns: 1fr; } }
+

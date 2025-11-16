@@ -1,0 +1,4 @@
+.filters { position: sticky; top: 8px; z-index: 2; background: var(--bg); padding: 8px 0; }
+.cards-grid .card { min-height: 120px; }
+.cards-grid .btn { margin-top: 8px; }
+

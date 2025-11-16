@@ -1,0 +1,11 @@
+.btn { display:inline-block; padding: 10px 14px; border-radius: var(--radius); border:1px solid transparent; cursor:pointer; transition: .15s ease; font-weight:600; }
+.btn:disabled { opacity:.6; cursor:not-allowed; }
+.btn-primary { background: var(--primary); color:#fff; }
+.btn-primary:hover { filter: brightness(0.95); }
+.btn-secondary { background:#fff; color:var(--primary); border-color: var(--primary); }
+.btn-secondary:hover { background:#f2f7ff; }
+.btn-danger { background: var(--danger); color:#fff; }
+.btn-danger:hover { filter: brightness(0.95); }
+.btn-success { background: var(--success); color:#fff; }
+.btn-success:hover { filter: brightness(0.95); }
+
